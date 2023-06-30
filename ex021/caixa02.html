@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+</head>
+<style>
+    body {
+        font-family: sans-serif;
+        background-color: darkgray;
+    }
+    header {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    nav {
+        background-color: rgb(165, 87, 87);
+        padding: 3px;
+        box-shadow: 2px 3px 5px rgba(139, 0, 0, 0.61); 
+    }
+
+    nav > a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 15px;
+    }
+
+    nav > a:hover {
+        text-decoration: underline;
+        background-color: rgb(12, 67, 88);
+    }
+
+    main {
+        background-color: white;
+        padding: 10px;
+        margin: 2px;
+        border-radius: 20px 0px;
+        box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.61); 
+    }
+    article {
+        background-color: lightcyan;
+    }
+    article > aside {
+        background-color: rgb(179, 204, 204);
+    }
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 1px;
+        margin: 0px;
+    }
+    footer > p {
+        margin: 0px;
+    }
+
+    /* div#bola {
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        background-color: white;
+        border-radius: 50%;
+    } */
+
+</style>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+                <p>Esporte Política tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis ratione nobis voluptatibus ad aliquam ut, aut temporibus nostrum tenetur sint unde provident dolorem, sit assumenda saepe tempora? Voluptatem, quae ad!</p>
+                <aside>
+                    <p>Artigo escrito por Jose da Silva</p>
+                </aside>
+            </article>
+            <article>
+                  
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Caio do Carmo</p>
+    </footer>
+</body>
+</html>
