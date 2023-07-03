@@ -1,4 +1,4 @@
 # exercicios_html_css
  Curso de HTML e CSS3 do CursoemVideo
 
- Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
+Esses são alguns exercícios resolvidos JUNTO com o professor do curso em video.
