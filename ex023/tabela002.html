@@ -13,6 +13,7 @@
     table {
         width: 450px;
         border-collapse: collapse;
+        position: relative;
     }
 
     td, th {
@@ -36,6 +37,12 @@
 
     tbody > tr:nth-child(odd) {  /* 2n-1  */
         background-color: rgba(255, 255, 255, 0.39);
+    }
+
+    thead > tr > th {
+        position: sticky;
+        top: -1px;
+        background-color: gray;
     }
 
     tbody > tr:nth-child(even){ /* 2n  */
