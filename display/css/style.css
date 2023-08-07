@@ -1,0 +1,15 @@
+.box {
+    background-color: pink;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.box-2 {
+    background-color: yellow;
+}
+
+.box-3 {
+    background-color: blue;
+}
