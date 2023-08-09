@@ -1,0 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li:nth-last-child(5) {
+    color: aqua;
+    font-size: 20px;
+}
+
