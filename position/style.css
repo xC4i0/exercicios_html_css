@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 200vh;
+    width: 200vw;
+}
+
+.div-dad {
+    height: 350px;
+    width: 350px;
+    background-color: #ff1369;
+    margin-top: 100px;
+    position: relative;
+    /* Se nao tiver position relative ele se refere a centrealização na pagina  */
+}
+
+.div-son {
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    position: absolute;
+    top: 50px;
+}
+
+.eu {
+    background-color: rgb(255, 0, 0);
+    height: 100px;
+    width: 100px;
+}
